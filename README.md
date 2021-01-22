@@ -17,6 +17,8 @@ then stored in a csv file at the end.
 3. Install the dependencies: `$pip install -r requirements.txt`
 4. Paste the image of your interest in the cloned directory and rename it to 'image.jpg'
 5. Run the project: `$python roi_selection.py`
-6. Select the region of your interest using lef click of the mouse
-7. Once you have selected a polygonal shaped region of interest, click middle button in mouse.
+6. Select the region of your interest using _left click_ of the mouse
+7. Once you have selected a polygonal shaped region of interest, click _middle button_ in mouse.
+8. Polygonal Region of ineterest selected by you will be shown in an opencv window and (x,y) coordinates
+of points clicked will be saved in a csv file named 'roi_coordinates.csv'
 

@@ -64,10 +64,8 @@ def click_event(event, x, y, flags, params):
             with open(r'roi_coordinates.csv', 'a', newline='') as csvfile:
                 headers = ['x_coordinate', 'y_coordinate']
                 writer = csv.DictWriter(csvfile, fieldnames=headers)
-                # if not os.path.exists('roi_coordinates.csv'):
-                # if csvfile.tell() == 0:
-                #     print("Inside tell")
-                #     writer.writeheader()
+                if csvfile.tell() == 0:
+                    writer.writeheader()
                 writer.writerow({'x_coordinate': pt[0], 'y_coordinate': pt[1]})
 
         cv2.imshow('image', img2)
