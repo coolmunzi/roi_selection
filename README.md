@@ -11,10 +11,12 @@ then stored in a csv file at the end.
 
 
 # **Usage**
-1. Clone the dependencies: `$git clone https://github.com/coolmunzi/roi_selection`
-2. Install the dependencies: `$pip install -r requirements.txt`
-3. Paste the image of your interest in the cloned directory and rename it to 'image.jpg'
-4. Run the project: `$python roi_selection.py`
-5. Select the region of your interest using lef click of the mouse
-6. Once you have selected a polygonal shaped region of interest, click middle button in mouse.
+1. Clone the repo: `$git clone https://github.com/coolmunzi/roi_selection`
+   
+2. Create a virtual environment: `$conda create -n roi_selection python=3.6`
+3. Install the dependencies: `$pip install -r requirements.txt`
+4. Paste the image of your interest in the cloned directory and rename it to 'image.jpg'
+5. Run the project: `$python roi_selection.py`
+6. Select the region of your interest using lef click of the mouse
+7. Once you have selected a polygonal shaped region of interest, click middle button in mouse.
 
