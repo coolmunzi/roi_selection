@@ -1,8 +1,9 @@
 # **Introduction**
 
-Roi selection script allows you to select the regoin of interest of your
-choice using simple mouse click. x & y coordinates of your mouse click are 
-then stored in a csv file at the end.
+Roi selection tool allows you to select the region of interest of your
+choice using simple mouse click. x & y coordinates of your mouse clicks are 
+then stored in a csv file at the end. The produced csv file can be used for
+computer vision based application development.
 
 # **Demo**
 
@@ -19,6 +20,6 @@ then stored in a csv file at the end.
 5. Run the project: `$python roi_selection.py`
 6. Select the region of your interest using _left click_ of the mouse
 7. Once you have selected a polygonal shaped region of interest, click _middle button_ in mouse.
-8. Polygonal Region of ineterest selected by you will be shown in an opencv window and (x,y) coordinates
+8. Polygonal Region of interest selected by you will be shown in an opencv window and (x,y) coordinates
 of points clicked will be saved in a csv file named 'roi_coordinates.csv'
 
